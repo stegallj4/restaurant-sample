@@ -1,0 +1,40 @@
+.app__statistic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 20%;
+    gap: 30px;
+}
+
+.changes_number h3{
+    font-size: 45px;
+    font-weight: 200;
+    color: var(--color-golden);
+}
+
+.changes_option h4{
+    font-size: 32px;
+    font-family: var(--font-base);
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 950px) {
+    .app__statistic{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__statistic{
+        gap: 15px;
+    }
+
+    .changes_number h3{
+        font-size: 30px;
+    }
+
+    .changes_option h4{
+        font-size: 24px;
+    }
+}

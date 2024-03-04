@@ -1,22 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
+import { HomePage } from './pages/HomePage/HomePage';
+import { AboutUsPage } from './pages/AboutUsPage/AboutUsPage';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
-);
+function App() {
+    const router = createBrowserRouter([
+        {
+            path: '/restaurant-sample',
+            element: <HomePage />,
+        },
+        {
+            path: '/aboutus',
+            element: <AboutUsPage />
+        }
+    ])
+
+    return (
+        <RouterProvider router={router} />
+    )
+}
+
 
 export default App;

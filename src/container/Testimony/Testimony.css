@@ -1,0 +1,29 @@
+.app__testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: var(--color-black);
+}
+
+.app__testimony-title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.app__testimony-content_cards{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__testimony-content_cards{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        width: 100%;
+    }
+}

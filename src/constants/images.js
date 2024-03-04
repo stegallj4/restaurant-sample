@@ -20,6 +20,13 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import winewall from '../assets/winewall.png';
+import entrance from '../assets/entrance.png';
+import lobby from '../assets/lobby.jpg';
+import wade from '../assets/wade.png';
+import jane from '../assets/jane.png';
+import robert from '../assets/robert.png';
+import brooklyn from '../assets/brooklyn.png'
 
 export default {
   bg,
@@ -44,4 +51,11 @@ export default {
   sign,
   quote,
   gericht,
+  winewall,
+  entrance,
+  lobby,
+  wade,
+  jane,
+  robert,
+  brooklyn
 };
