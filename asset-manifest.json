@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/restaurant-sample/static/css/main.a5c652a5.css",
-    "main.js": "/restaurant-sample/static/js/main.65b284e1.js",
+    "main.css": "/restaurant-sample/static/css/main.252fc6f5.css",
+    "main.js": "/restaurant-sample/static/js/main.61f343a2.js",
+    "static/media/happyhour.mp4": "/restaurant-sample/static/media/happyhour.08c54f44f026b906ab82.mp4",
     "static/media/meal.mp4": "/restaurant-sample/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/restaurant-sample/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/welcome.png": "/restaurant-sample/static/media/welcome.d724eb984456d9c97470.png",
@@ -13,8 +14,15 @@
     "static/media/gallery03.png": "/restaurant-sample/static/media/gallery03.b2d50180e8590d4dd330.png",
     "static/media/gallery02.png": "/restaurant-sample/static/media/gallery02.27663bd9016b72ccd328.png",
     "static/media/gallery01.png": "/restaurant-sample/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/entrance.png": "/restaurant-sample/static/media/entrance.bb1501b51f40c1454308.png",
+    "static/media/winewall.png": "/restaurant-sample/static/media/winewall.2ecd7418fbb424d6a863.png",
     "static/media/knife.png": "/restaurant-sample/static/media/knife.1121c0a5afb62acb31cb.png",
     "static/media/overlaybg.png": "/restaurant-sample/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/lobby.jpg": "/restaurant-sample/static/media/lobby.e31c46c395410d71d54c.jpg",
+    "static/media/jane.png": "/restaurant-sample/static/media/jane.26a51fd5dacdec0b1020.png",
+    "static/media/robert.png": "/restaurant-sample/static/media/robert.13edd581a876f5423e53.png",
+    "static/media/brooklyn.png": "/restaurant-sample/static/media/brooklyn.36e7a4bb7e9daa62ff7f.png",
+    "static/media/wade.png": "/restaurant-sample/static/media/wade.d174b95e95f5c793d4de.png",
     "static/media/G.png": "/restaurant-sample/static/media/G.b571eb82e589ec305ec9.png",
     "static/media/logo.png": "/restaurant-sample/static/media/logo.0286194c03de0a90dac9.png",
     "static/media/award02.png": "/restaurant-sample/static/media/award02.8bbdd51499739653b003.png",
@@ -24,11 +32,11 @@
     "static/media/sign.png": "/restaurant-sample/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/restaurant-sample/index.html",
     "static/media/spoon.svg": "/restaurant-sample/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.a5c652a5.css.map": "/restaurant-sample/static/css/main.a5c652a5.css.map",
-    "main.65b284e1.js.map": "/restaurant-sample/static/js/main.65b284e1.js.map"
+    "main.252fc6f5.css.map": "/restaurant-sample/static/css/main.252fc6f5.css.map",
+    "main.61f343a2.js.map": "/restaurant-sample/static/js/main.61f343a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5c652a5.css",
-    "static/js/main.65b284e1.js"
+    "static/css/main.252fc6f5.css",
+    "static/js/main.61f343a2.js"
   ]
 }
