@@ -2,10 +2,10 @@ import React from "react";
 
 import { HomePage } from './pages/HomePage/HomePage';
 import { AboutUsPage } from './pages/AboutUsPage/AboutUsPage';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
-    const router = createBrowserRouter([
+    const router = createHashRouter([
         {
             path: '/restaurant-sample',
             element: <HomePage />,
