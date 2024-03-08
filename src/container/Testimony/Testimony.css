@@ -20,6 +20,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .app__testimony-title{
+        margin-bottom: 2rem;
+    }
+    
     .app__testimony-content_cards{
         display: flex;
         flex-direction: column;

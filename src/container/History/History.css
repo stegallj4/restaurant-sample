@@ -26,10 +26,22 @@
 
 .app__history-content_left p{
     margin-bottom: 2rem;
+
+    animation: from-left;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 50vh;
 }
 
 .winewall{
     width: 100%;
+}
+
+.app__history-content_right-ani{
+    animation: from-right;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 50vh;
 }
 
 .app__history-content_right-header{
@@ -53,6 +65,30 @@
     width: 1px;
     height: 6rem;
     background-color: var(--color-white);
+}
+
+@keyframes from-left{
+    from{
+        transform: translateX(-700px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes from-right{
+    from{
+        transform: translateX(700px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -107,5 +143,10 @@
 
     .app__history-content_right-header{
         font-size: 30px;
+    }
+
+    .app__history-content_left p,
+    .app__history-content_right-ani{
+        animation: none;
     }
 }

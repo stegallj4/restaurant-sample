@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useRef } from "react";
 
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 import { SubHeading } from "../../components";
@@ -6,8 +6,8 @@ import { happyhour } from "../../constants";
 import "./About.css";
 
 const About = () => {
-  const [playVideo, setPlayVideo] = React.useState(false);
-  const vidRef = React.useRef();
+  const [playVideo, setPlayVideo] = useState(false);
+  const vidRef = useRef();
   const handleVideo = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo);
 
@@ -19,7 +19,7 @@ const About = () => {
   };
 
   return (
-    <div className="app__about flex__center section__padding">
+    <div className="app__about flex__center section__padding app__bg">
       <div className="app__about-title">
         <SubHeading title={"About Us"} />
         <h1 className="headtext__cormorant">Happy Hours With Us</h1>
@@ -32,7 +32,7 @@ const About = () => {
           aliquet eu proin mauris et.
         </p>
 
-        <div className="app__about-content_video">
+        <div className="app__about-content_video" onClick={handleVideo}>
           <video
             src={happyhour}
             ref={vidRef}
@@ -42,12 +42,9 @@ const About = () => {
             muted
           />
           <div className="app__about-content_video-overlay flex__center">
-            <div
-              className="app__about-content_video-circle flex__center"
-              onClick={handleVideo}
-            >
+            <div className="app__about-content_video-circle flex__center">
               {playVideo ? (
-                <BsPauseFill color="#fff" fontSize={30} />
+                <BsPauseFill color="#fff" fontSize={30} opacity={0}/>
               ) : (
                 <BsFillPlayFill color="#fff" fontSize={30} />
               )}

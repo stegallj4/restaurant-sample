@@ -9,10 +9,10 @@ const FindUs = () => (
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant" style={{ marginBottom :'3rem' }}>Find Us</h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans">Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG</p>
+        <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
         <p className="p__cormorant" style={{color: '#DCCA87', margin: '2rem 0'}}>Opening Hours:</p>
-        <p className="p__opensans">Mon - Fri: 11:00am - 12:00am</p>
-        <p className="p__opensans">Sat - Sun: 11:00am - 02:00am</p>
+        <p className="p__opensans">Monday - Friday: 11:00am - 12:00am</p>
+        <p className="p__opensans">Saturday - Sunday: 11:00am - 2:00am</p>
       </div>
       <div className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</div>
     </div>

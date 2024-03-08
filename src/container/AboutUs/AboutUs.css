@@ -24,8 +24,14 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+    overflow: hidden;
 
     text-align: right;
+
+    animation: from-left;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 50vh;
 }
 
 .app__aboutus-content_knife{
@@ -34,6 +40,11 @@
 
 .app__aboutus-content_knife img{
     height: 910px;
+
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 100vh;
 }
 
 .app__aboutus-content_history{
@@ -42,14 +53,59 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    overflow: hidden;
 
     text-align: left;
+
+    animation: from-right;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 50vh;
 }
 
 .app__aboutus-content_history p,
 .app__aboutus-content_about p{
     margin: 2rem 0;
     color: var(--color-grey);
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes from-left{
+    from{
+        transform: translateX(-700px);
+        opacity: 0;
+        scale: .1;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes from-right{
+    from{
+        transform: translateX(700px);
+        opacity: 0;
+        scale: .1;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+        scale: 1;
+    }
 }
 
 @media screen and (max-width: 2000px) {

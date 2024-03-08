@@ -17,7 +17,7 @@ const Testimony = () => {
           <Testimonials
             imgUrl={
               testimony.imgUrl
-            } name={testimony.name} job={testimony.job} review={testimony.review}
+            } name={testimony.name} job={testimony.job} review={testimony.review} key={testimony.id}
           />
         ))}
       </div>

@@ -1,8 +1,7 @@
 import React from 'react'
 
-import { About, History, Testimony } from '../../container/index';
+import { About, History, Testimony, Chef, Gallery, Footer } from '../../container/index';
 import { Navbar, Welcome } from '../../components';
-import { Chef, Gallery, Footer } from '../../container/index';
 import '../../App.css';
 
 const AboutUsPage = () => (

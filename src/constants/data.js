@@ -145,4 +145,12 @@ const testimonials = [
   }
 ]
 
-export default { wines, cocktails, awards, stats, testimonials };
+const restaurantInfo = [
+  {
+    address: '9 W 53rd St, New York, NY 10019, USA',
+    phoneNumber1: '+1 212-344-1230',
+    phoneNumber2: '+1 212-555-1230'
+  }
+]
+
+export default { wines, cocktails, awards, stats, testimonials, restaurantInfo };
