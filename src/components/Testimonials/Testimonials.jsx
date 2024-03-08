@@ -12,10 +12,10 @@ const Testimonials = ({ imgUrl, name, job, review }) => (
       <div className="card_image-picture_container flex__center">
         <img
           src={imgUrl}
-          alt="profile picture"
+          alt="profile"
           className="card_image-picture"
         />
-        <BsInstagram className="card_image-icon" />
+       <BsInstagram className="card_image-icon" />
       </div>
       <img
         src={images.quote}

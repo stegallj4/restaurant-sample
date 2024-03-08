@@ -13,6 +13,8 @@
     position: relative;
 }
 
+
+
 .card_image-icon{
     position: absolute;
     color: #fff;
@@ -21,6 +23,8 @@
     transition: 0.5s;
     cursor: pointer;
 }
+
+
 
 .card_image-picture_container img{
     width: 100%;
@@ -31,6 +35,8 @@
     transition: 0.5s;
 }
 
+
+
 .card_image-picture_container:hover img{
     opacity: 0.35;
 }
@@ -38,6 +44,8 @@
 .card_image-picture_container:hover .card_image-icon{
     opacity: 1;
 }
+
+
 
 .card_image-quote{
     width: 2rem;

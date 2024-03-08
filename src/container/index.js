@@ -10,6 +10,8 @@ import SpecialMenu from './Menu/SpecialMenu';
 import About from './About/About';
 import History from './History/History';
 import Testimony from './Testimony/Testimony';
+import ContactForm from './ContactForm/ContactForm';
+import ChefGrid from './ChefGrid/ChefGrid';
 
 export {
   AboutUs,
@@ -24,4 +26,6 @@ export {
   About,
   History,
   Testimony,
+  ContactForm,
+  ChefGrid
 };

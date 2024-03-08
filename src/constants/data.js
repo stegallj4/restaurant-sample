@@ -15,7 +15,7 @@ const wines = [
   },
   {
     id: 3,
-    title: 'La Vieillw Rose',
+    title: 'La Vieille Rose',
     price: '$44',
     tags: 'FR | 750 ml',
   },
@@ -28,7 +28,7 @@ const wines = [
   {
     id: 5,
     title: 'Irish Guinness',
-    price: '$26',
+    price: '$8',
     tags: 'IE | 750 ml',
   },
 ];
@@ -37,7 +37,7 @@ const cocktails = [
   {
     id: 1,
     title: 'Aperol Sprtiz',
-    price: '$20',
+    price: '$18',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
@@ -55,13 +55,13 @@ const cocktails = [
   {
     id: 4,
     title: 'Old Fashioned',
-    price: '$31',
+    price: '$18',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
     id: 5,
     title: 'Negroni',
-    price: '$26',
+    price: '$15',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
@@ -70,7 +70,7 @@ const awards = [
   {
     id: 1,
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
+    title: 'Bib Gourmand',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {

@@ -82,4 +82,12 @@
         font-size: 35px;
         line-height: 48.5px;
     }
+
+    .app__specialMenu_menu_items{
+        margin-bottom: 0;
+    }
+
+    .menu_button{
+        margin-top: 5px;
+    }
 }

@@ -67,7 +67,7 @@
     background-color: var(--color-white);
 }
 
-@keyframes from-left{
+@keyframes fade-left{
     from{
         transform: translateX(-700px);
         opacity: 0;
@@ -79,9 +79,9 @@
     }
 }
 
-@keyframes from-right{
+@keyframes fade-right{
     from{
-        transform: translateX(700px);
+        transform: translateX(100px);
         opacity: 0;
     }
 

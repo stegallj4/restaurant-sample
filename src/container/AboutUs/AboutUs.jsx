@@ -25,7 +25,7 @@ const AboutUs = () => (
         </p>
         <Link to="/aboutus">
           <button type="button" className="custom__button">
-            Know More
+            Learn More
           </button>
         </Link>
       </div>
@@ -34,17 +34,17 @@ const AboutUs = () => (
         <img src={images.knife} alt="about_knife" />
       </div>
 
-      <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+      <div className="app__aboutus-content_team">
+        <h1 className="headtext__cormorant">Our Team</h1>
         <img src={images.spoon} alt="About_spoon" className="spoon__img" />
         <p className="p__opensans">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
           aliquet eu proin mauris et.
         </p>
-        <Link to="/aboutus">
+        <Link to="/our-team">
           <button type="button" className="custom__button">
-            Know More
+            Learn More
           </button>
         </Link>
       </div>

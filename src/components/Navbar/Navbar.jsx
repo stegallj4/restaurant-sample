@@ -28,7 +28,7 @@ const Navbar = () => {
 					<a href="#awards">Awards</a>
 				</li>
 				<li className="p__opensans">
-					<a href="#contact">Contact</a>
+					<Link to='/contact'>Contact</Link>
 				</li>
 			</ul>
 			<div className="app__navbar-login">
@@ -68,7 +68,7 @@ const Navbar = () => {
 								<a href="#awards">Awards</a>
 							</li>
 							<li className="p__opensans">
-								<a href="#contact">Contact</a>
+								<Link to='/contact'>Contact</Link>
 							</li>
 						</ul>
 					</div>
