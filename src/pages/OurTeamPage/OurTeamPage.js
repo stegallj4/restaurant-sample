@@ -7,7 +7,7 @@ import '../../App.css';
 const OurTeamPage = () => (
     <div>
         <Navbar />
-        <Welcome page="Our Team" />
+        <Welcome page="OurTeam" />
         <ChefGrid />
         <Laurels />
         <Footer />

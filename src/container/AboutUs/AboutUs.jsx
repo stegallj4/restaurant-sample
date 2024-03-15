@@ -23,11 +23,11 @@ const AboutUs = () => (
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
           aliquet eu proin mauris et.
         </p>
-        <Link to="/aboutus">
-          <button type="button" className="custom__button">
-            Learn More
-          </button>
-        </Link>
+          <Link to="/aboutus">
+            <button type="button" className="custom__button">
+              Learn More
+            </button>
+          </Link>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">

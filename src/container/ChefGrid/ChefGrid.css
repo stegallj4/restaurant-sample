@@ -1,0 +1,30 @@
+.app__chefgrid {
+  background: var(--color-black);
+}
+
+.app__chefgrid-container {
+  width: 80%;
+  margin: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app__chefgrid-container_top,
+.app__chefgrid-container_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 550px) {
+    .app__chefgrid-container{
+        margin: 0;
+    }
+  .app__chefgrid-container_top,
+  .app__chefgrid-container_bottom{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

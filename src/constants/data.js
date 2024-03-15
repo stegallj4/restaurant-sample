@@ -145,12 +145,43 @@ const testimonials = [
   }
 ]
 
-const restaurantInfo = [
+const chefs = [
   {
-    address: '9 W 53rd St, New York, NY 10019, USA',
-    phoneNumber1: '+1 212-344-1230',
-    phoneNumber2: '+1 212-555-1230'
+    id: 1,
+    name: 'Kevin Luo',
+    position: 'Head Chef',
+    imgUrl: images.kevin
+  },
+  {
+    id: 2,
+    name: 'Patrick Choi',
+    position: 'Deputy Chef',
+    imgUrl: images.patrick
+  },
+  {
+    id: 3,
+    name: 'Jack Biscoff',
+    position: 'Station Chef',
+    imgUrl: images.jack
+  },
+  {
+    id: 4,
+    name: 'Stacy Lee',
+    position: 'Station Chef',
+    imgUrl: images.stacy
+  },
+  {
+    id: 5,
+    name: 'Aren Goodman',
+    position: 'Junior Chef',
+    imgUrl: images.aren
+  },
+  {
+    id: 6,
+    name: 'Javier Dowsing',
+    position: 'Junior Chef',
+    imgUrl: images.javier
   }
 ]
 
-export default { wines, cocktails, awards, stats, testimonials, restaurantInfo };
+export default { wines, cocktails, awards, stats, testimonials, chefs };

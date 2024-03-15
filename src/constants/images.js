@@ -26,7 +26,13 @@ import lobby from '../assets/lobby.jpg';
 import wade from '../assets/wade.png';
 import jane from '../assets/jane.png';
 import robert from '../assets/robert.png';
-import brooklyn from '../assets/brooklyn.png'
+import brooklyn from '../assets/brooklyn.png';
+import aren from '../assets/aren.png';
+import jack from '../assets/jack.png';
+import javier from '../assets/javier.png';
+import patrick from '../assets/patrick.png';
+import stacy from '../assets/stacy.png';
+import kevin from '../assets/kevin.png';
 
 export default {
   bg,
@@ -57,5 +63,11 @@ export default {
   wade,
   jane,
   robert,
-  brooklyn
+  brooklyn,
+  aren,
+  jack,
+  javier,
+  patrick,
+  stacy,
+  kevin
 };

@@ -23,9 +23,12 @@ function App() {
         {
             path: '/our-team',
             element: <OurTeamPage />
-        }
+        },
+        {
+            path: '/our-team/:bio',
+            element: <OurTeamPage />
+        },
     ])
-    
 
     return (
         <RouterProvider router={router} />

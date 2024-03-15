@@ -31,6 +31,7 @@ const Intro = () => {
         <div
           className="app__video-overlay_circle flex__center"
           onClick={handleVideo}
+          // CSS in React & React Spring Chapter 1. CSS in React for toggling circle opacity
         >
           {playVideo ? (
             <BsPauseFill color="#fff" fontSize={30} opacity={0}/>
