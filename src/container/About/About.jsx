@@ -44,7 +44,7 @@ const About = () => {
           <div className="app__about-content_video-overlay flex__center">
             <div className="app__about-content_video-circle flex__center">
               {playVideo ? (
-                <BsPauseFill color="#fff" fontSize={30} opacity={0}/>
+                <BsPauseFill color="#fff" fontSize={30}/>
               ) : (
                 <BsFillPlayFill color="#fff" fontSize={30} />
               )}

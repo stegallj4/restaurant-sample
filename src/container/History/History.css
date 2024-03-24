@@ -108,31 +108,35 @@
         flex-direction: column;
         justify-content: center;
     }
-
+    
     .app__history-title{
         margin-bottom: 3rem;
     }
-
+    
     .card{
         width: 100%;
     }
-
+    
     .winewall{
         display: none;
     }
-
+    
     .app__history-content_right-header{
         text-align: center;
-        text-decoration: underline;
         margin-bottom: 2rem;
     }
-
+    
     .app__history-content_right-stats{
         justify-content: space-around;
     }
-
+    
     .app__history-content_right-stats_dash{
         display: block;
+    }
+
+    .app__history-content_left p,
+    .app__history-content_right-ani{
+        animation: none;
     }
 }
 
@@ -143,10 +147,5 @@
 
     .app__history-content_right-header{
         font-size: 30px;
-    }
-
-    .app__history-content_left p,
-    .app__history-content_right-ani{
-        animation: none;
     }
 }

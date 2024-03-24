@@ -18,8 +18,12 @@
   color: #fff;
   font-size: 2rem;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
   cursor: pointer;
+}
+
+.card_image-icon:hover {
+  color: var(--color-golden);
 }
 
 .card_image-picture_container img {
